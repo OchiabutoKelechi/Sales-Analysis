@@ -50,7 +50,22 @@ To ensure easy navigation and adequate understanding of this analysis, I divided
   
 - Sales Trend by Month: The Sales Trend by Month has been in a progressive upward trajectory from January - June 2023, with June topping the chart with a total revenue of $166, 486.
   
-- Sales by Product Types: Barista Espresso generated the highest sales among the twenty-nine (29) different Product Types, with a total revenue of $91, 406, representing 13% of the total revenue. Brewed Chai Tea and Hot Chocolate made it to the top of the list with a revenue of $77,082, and $72,416 respectively.
+- Sales by Product Types: Barista Espresso generated the highest sales among the twenty-nine (29) different Product Types, with a total revenue of $91, 406, representing 13% of the total revenue. Brewed Chai Tea and Hot Chocolate made it to the top of the list with a revenue of $77,082 and $72,416 respectively.
   
 - Sales by Product Details: Sustainably Grown Organic Rg product generated the highest Sales in this category with a total revenue of $21,152. Dark Chocolate Lg and Latte Lg are next on the list with $21,006 and $19,112 sales respectively.
+ 
+## Recommendations
 
+- Utilize insights from the analysis to fine-tune sales strategies, prioritizing high-performing products, and store locations.
+
+- Channel resources towards strategies and products that generate high revenues such as Coffee and Tea. Also, priority attention should be given to Hell's Kitchen, as it generated the highest revenue, while also giving maximum attention to other stores.
+
+- From this dashboard and analysis, Identify top-performing products in each store and maximize their sales to boost revenue. Also, identify the reasons why some products are performing poorly and address it by implementing strategies like offering incentives such as discounts, offering complimentary items for their purchase, and create compelling offers that would persuade customers to purchase them.
+
+- The Sales team should up their game in creating more product awareness, with priority attention on the poor-performing products to boost their sales. Also, the sales team should  maximize sales based on the identified customers product preferences on each store location, by ensuring product availability at all times.
+
+- Utilize interactive analysis dashboards to gain real-time insights into overall sales performance across the three (3) store locations, and continuously implement strategies to improve sales.
+
+## Conclusion
+Conclusively, this Sales Analysis has provided valuable insights into the company's overall sales performance, customers behavior, sales trends, products performances, and overall business performance between January 2021 - June 2023.
+By leveraging these insights, the company can make informed decisions to optimize sales strategies, improve team's performance, boost products’ visibility and boost their revenue.
