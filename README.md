@@ -1,70 +1,104 @@
 # Sales Analysis Project
 
 ## Project Overview
-This Power BI Sales Analysis project provides comprehensive and fully interactive insights into the key trends and patterns in sales activities, such as top-performing and poor-performing products by product types, product categories, and product details of the company between January 2021 - June 2023. Also, to identify sales trends by store locations, and sales trends over months and time of the day. The dashboard offers detailed tracking of sales performance metrics for managers and stakeholders of KACYFOODS, enabling them to make informed data-driven decisions to increase their sales and meet the organization's target.
+This project presents a detailed, fully interactive analysis of a company's sales data between January 2021 and June 2023. It highlights key trends and patterns across various aspects of the company's sales activities, including the top-performing and under-performing products by product type, category, and specific product details. Additionally, it examines sales trends across different store locations, monthly sales trends, and patterns based on the time of day. The primary objective of this project is to deliver actionable insights through the Power BI dashboard, which helps managers and stakeholders make informed, data-driven decisions to enhance sales performance and meet organizational targets.
 
 ## Data Source
-I downloaded the data from the popular data repository website, Kaggle
+The dataset was downloaded from the Kaggle repository platform. The columns contained in the dataset are:
+- Transaction ID
+-Transaction Date
+- Transaction Quantity
+- Transaction Time
+- Store ID
+- Store Location
+- Product ID
+- Product Category
+- Product Type
+- Product Detail
 
-## Tools and Software Used
-- Power BI: The primary tool used in this project was Power BI, which facilitated the creation of interactive visualizations and dashboards to extract and display insights from the data. 
-- Power Query Editor: I used the Power Query Editor in Power BI for data cleaning and transformation. I used this tool to perform various operations such as removing duplicates, eliminating blank rows, formatting columns, extracting 'Month Names' from the 'Date' column, and replacing values across different columns. Also, I used the DAX formula in Power Query to multiply the 'Transaction Quantity' column with the 'Unit Price' Column using the SUMX DAX formula to get the Total Sales value.
+Click on the link to interact with the [Analysis Dashboard](https://app.powerbi.com/groups/me/reports/848f531b-6c9b-4cd3-9765-ebe6cc837cc7/ReportSection37bdf803105093a3eef2?experience=power-bi&clientSideAuth)
 
-- Microsoft Excel: Microsoft Excel played a crucial role at the beginning of the project. It helped me understand the data structure better and played a crucial role during the data-cleaning phase of the project. I used the Excel VLOOKUP formula to extract the 'Time of Day' from the "Time of Purchase" column, eliminate blank rows and fields in the data, format columns, remove duplicate values, replace values across different columns using the "Find and Replace" function, among others.
+## Software Used
+1) Microsoft Excel: For data cleaning and transformation
+2) Power Query Editor: For advanced data cleaning and transformation.
+3) Power BI: Used for the creation of interactive visualizations and dashboards to extract and display insights from the data.
 
 ## Data Cleaning and Transformation
-Key transformations included:
 
-1) Creating Tables: Data on each worksheet was transformed into a table using the Cntr-A followed by Cntr-T functions.
-2) Removal of Duplicates: I ensured the uniqueness of entries across all columns using the "Remove Duplicates" function in Excel.
-3) Column Trimming: Unnecessary columns were removed to streamline the analysis. This ensured the focus was on relevant data.
-4) Correction of Misspellings: I used the "Find and Replace" function in Excel and Power Query to correct wrongly spelt entries in the data such as product types,  product categories, product details, and location names.
-5) Blank Rows Removal: Blank rows were removed to maintain data integrity.
-6) Text Formatting: Columns such as Product Types, Product Details, Product Categories, Date, and Time columns were cleaned, trimmed, and capitalized to ensure consistency.
-7) New Column Creation: I created two new columns called "Time of Day" and "Month" respectively. Therein, I extracted the Time of Day i.e. Morning, Afternoon, and Evening from the "Time of Purchase" column using the VLOOKUP formula in Excel and input it in the newly created "Time of Day" column. Also, I extracted 'Month Names' from the "Date Column" using Power Query Editor.
-8) Header Promotion: I ensured that the first row of each column was promoted to header status for clarity.
-9) Column Renaming: Columns were renamed for better readability.
+The data cleaning and transformation process was extensive, focusing on ensuring data consistency and integrity to improve the accuracy of the insights drawn from the analysis.
+#### Key transformations included:
+- Creating Tables: Each worksheet’s data was converted into structured tables using Excel’s Ctrl-A and Ctrl-T functions. This ensured proper organization for easier analysis.
+
+- Duplicate Removal: Duplicate entries across multiple columns were eliminated using Excel’s “Remove Duplicates” function to ensure the dataset reflected only unique transactions.
+
+- Column Trimming: Irrelevant columns were removed to streamline the analysis, ensuring accuracy of the analysis.
+
+- Correction of Misspellings: Both Power Query and Excel’s “Find and Replace” function were used to correct misspellings in key fields like product types, categories, and location names, ensuring consistency across the dataset.
+
+- Blank Rows Removal: Blank rows were removed to maintain data integrity, ensuring a clean and complete dataset.
+
+- Text Formatting: Consistency in data was further ensured by cleaning, trimming, and capitalizing key columns such as Product Types, Product Details, Categories, and Time and Date fields.
+
+- Time of Day: Using Excel’s VLOOKUP function, the time of day (Morning, Afternoon, or Evening) was extracted from the "Time of Purchase" column.
+
+- Month: Power Query Editor was used to extract the month names from the "Date" column for easier identification of sales trends by month.
+
+- Header Promotion: In both Power BI and Excel, the first row of each column was promoted to header status to ensure clarity.
+
+- Column Renaming: To enhance readability, columns were renamed based on their content, improving the user experience within the Power BI dashboard.
 
 ## Exploratory Data Analysis (EDA)
-- What's the Total Sales and Quantity Sold?
-- Which store made the highest sales?
-- Which Product Category generated the highest revenue?
-- Which Product Type generated the highest sales?
-- What is the Sales trend?
-- Which time of the day generated the highest sales?
-- Which Product Detail generated the highest Sales?
-- What are the total quantities sold in each category?
+
+1) What are the Total Sales and Quantity Sold?
+2) Which Store Generated the highest sales?
+3) Which Product Category Generated the highest revenue?
+4) Which Product Type had the highest sales?
+5) What are the Sales Trends over time?
+6) What Time of Day Generated the highest sales?
+7) Which Product Detail had the highest sales?
+8) What are the Total Quantities Sold in each Category?
 
 ## Data Analysis
-To ensure easy navigation and adequate understanding of this analysis, I divided the visualizations into 6 dashboards, utilizing various and appropriate visualization charts to convey clarity and knowledge of the insights.
+To facilitate the analysis, the visualizations were divided into six key dashboards, each focusing on different aspects of sales performance. Appropriate charts were chosen to deliver clarity, including bar charts, card visuals, column charts, line graphs, and pie charts, depending on the type of data being analyzed. Slicers were also deployed to for easy drilling of the analysis.
 
 #### General key Insights from the data visualization are summarized below:
 
-- Total Sales: Total revenue of $698,812 was generated, selling 214,470 Quantity of products across the three store locations; Hell's Kitchen, Astoria, and Lower Manhattan.
+- Total Sales: The company generated a total revenue of $698,812 from selling 214,470 units of products across three store locations: Hell's Kitchen, Astoria, and Lower Manhattan.
 
-- Sales by Store Location: Hell's Kitchen store generated the highest revenue among the three (3) store locations, with a total revenue of $236,511, representing 33.8% of the total revenue. Astoria is next on the list with an income of $232,244 (33.3%) and Lower Manhattan with a total revenue of $230,057 (32.92%).
-  
-- Sales by Product Categories: Coffee generated the highest sales, with a total revenue of $269,952, representing 38.63%. Tea and Bakery products are next on the list, with a total sales of $196,406(28.2%) and $82,316(11.8%) respectively.
-  
-- Sales by Time Of Day: The highest sales were made in the Morning hours, with a total revenue of $388,315, representing 55.57% of the total sales. Afternoon and Evening hours generated $204,702, and $105, 793 revenue respectively. Coffee and Tea products categories generated the highest Sales throughout the Times of the day.
-  
-- Sales Trend by Month: The Sales Trend by Month has been in a progressive upward trajectory from January - June 2023, with June topping the chart with a total revenue of $166, 486.
-  
-- Sales by Product Types: Barista Espresso generated the highest sales among the twenty-nine (29) different Product Types, with a total revenue of $91, 406, representing 13% of the total revenue. Brewed Chai Tea and Hot Chocolate made it to the top of the list with a revenue of $77,082 and $72,416 respectively.
-  
-- Sales by Product Details: Sustainably Grown Organic Rg product generated the highest Sales in this category with a total revenue of $21,152. Dark Chocolate Lg and Latte Lg are next on the list with $21,006 and $19,112 sales respectively.
+- Sales by Store Location: Hell's Kitchen was the top-performing store, generating $236,511, which accounts for 33.8% of total sales. Astoria followed closely with $232,244 (33.3%) while Lower Manhattan contributed $230,057 (32.92%).
+
+- Sales by Product Category: Coffee was the best-selling category, bringing in $269,952 (38.63% of total revenue). Tea and Bakery Products followed with $196,406 (28.2%) and $82,316 (11.8%), respectively.
+
+- Sales by Time of Day: Morning sales accounted for $388,315 (55.57%). Afternoon sales generated $204,702, while evening sales brought in $105,793. Coffee and Tea products consistently performed well across all times of the day.
+
+- Sales Trend by Month: There was a steady upward trend in sales from January to June 2023. June topped the chart with $166,486 in sales.
+
+- Sales by Product Type: Barista Espresso was the best-selling product type, generating $91,406 (13% ). Brewed Chai Tea and Hot Chocolate followed with $77,082 and $72,416, respectively.
+
+- Sales by Product Details: The Sustainably Grown Organic Rg product led with $21,152 in sales. Dark Chocolate Lg and Latte Lg followed with $21,006 and $19,112, respectively.
  
 ## Recommendations
 
-- Utilize insights from the analysis to fine-tune sales strategies, prioritizing high-performing products, and store locations.
+1) Since morning sales account for the majority of revenue (55.57%), focus marketing efforts on attracting more Morning customers. This could include offering breakfast promotions for morning purchases.
 
-- Channel resources towards strategies and products that generate high revenues such as Coffee and Tea. Also, priority attention should be given to Hell's Kitchen, as it generated the highest revenue, while also giving maximum attention to other stores.
+2) From the analysis, Coffee contributes 38.63% of total revenue, consider introducing new coffee flavors, sizes, or seasonal specialties to attract more customers. Also, consider bundling Coffee with Bakery items to increase sales in both categories.
 
-- From this dashboard and analysis, Identify top-performing products in each store and maximize their sales to boost revenue. Also, identify the reasons why some products are performing poorly and address it by implementing strategies like offering incentives such as discounts, offering complimentary items for their purchase, and create compelling offers that would persuade customers to purchase them.
+3) While Coffee dominates, Tea and Bakery Products contribute significantly to sales. Focus on promoting these items through limited-time offers or seasonal pairings with coffee to grow their share of revenue.
 
-- The Sales team should up their game in creating more product awareness, with priority attention on the poor-performing products to boost their sales. Also, the sales team should  maximize sales based on the identified customers product preferences on each store location, by ensuring product availability at all times.
+4) With evening sales lagging behind morning and afternoon sales, offer evening promotions or discounts products to draw in more customers during those hours.
 
-- Utilize interactive analysis dashboards to gain real-time insights into overall sales performance across the three (3) store locations, and continuously implement strategies to improve sales.
+5) Barista Espresso, Brewed Chai Tea, and Hot Chocolate are top-sellers. Ensure that these products are always available.
+
+6) Focus on upselling the top-performing premium products such as Sustainably Grown Organic Rg, Dark Chocolate Lg, and Latte Lg. These items have strong sales and likely generate higher profit margins, making them ideal for promotions to maximize revenue.
+
+7) Offer incentives such as discounts or complimentary items for the purchase of underperforming products to encourage more patronage. Also, invest in strategic marketing to boost the visibility of the underperforming products.
+
+Leverage the interactive dashboards to monitor sales performance in real-time and continuously implement strategies to improve overall overall sales.
+
+Ensure Consistent Stock Levels: Implement inventory management systems that prioritize keeping top-selling products in stock at all times. This will ensure you meet customer demand and avoid missed sales opportunities.
+
+Enhance Data-Driven Decisions: Use real-time data from interactive dashboards to continually monitor product and location sales. This will allow quick adjustments to strategies based on current performance trends.
+
 
 ## Conclusion
 Conclusively, this Sales Analysis has provided valuable insights into the company's overall sales performance, customers behavior, sales trends, products performances, and overall business performance between January 2021 - June 2023.
