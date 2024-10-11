@@ -1,7 +1,7 @@
 # Sales Analysis Project
 
 ## Project Overview
-This project presents a detailed, fully interactive analysis of a company's sales data between January 2021 and June 2023. It highlights key trends and patterns across various aspects of the company's sales activities, including the top-performing and under-performing products by product type, category, and specific product details. Additionally, it examines sales trends across different store locations, monthly sales trends, and patterns based on the time of day. The primary objective of this project is to deliver actionable insights through the Power BI dashboard, which helps managers and stakeholders make informed, data-driven decisions to enhance sales performance and meet organizational targets.
+This project presents a detailed analysis of a company's sales data between January 2021 and June 2023. It highlights key trends and patterns across various aspects of the company's sales activities, including the top-performing and under-performing products by product type, product category, and specific product details. Additionally, it examines sales trends across different store locations, monthly sales trends, and patterns based on the time of day. The primary objective of this project is to deliver actionable insights through the Power BI dashboard, which helps managers and stakeholders make informed, data-driven decisions to enhance sales performance and meet organizational targets.
 
 ## Data Source
 The dataset was downloaded from the Kaggle repository platform. The columns contained in the dataset are:
@@ -19,7 +19,7 @@ The dataset was downloaded from the Kaggle repository platform. The columns cont
 Click on the link to interact with the [Analysis Dashboard](https://app.powerbi.com/groups/me/reports/848f531b-6c9b-4cd3-9765-ebe6cc837cc7/ReportSection37bdf803105093a3eef2?experience=power-bi&clientSideAuth)
 
 ## Softwares Used
-1) Microsoft Excel: Utilized data cleaning and transformation
+1) Microsoft Excel: Utilized for data cleaning and transformation
 2) Power Query Editor: Utilized for advanced data cleaning and transformation.
 3) Power BI: Used for creation of interactive visualizations and dashboards to extract and display insights from the data.
 
@@ -28,7 +28,7 @@ Click on the link to interact with the [Analysis Dashboard](https://app.powerbi.
 The data cleaning and transformation process was extensive, focusing on ensuring data consistency and integrity to improve the accuracy of the insights drawn from the analysis.
 #### Key transformations included:
 
-- Table Creation: The Excel worksheet containing the data was converted into structured tables using Excel’s Ctrl-A and Ctrl-T functions. This ensured proper organization for easier analysis.
+- Table Creation: The Excel worksheet containing the data was converted into structured a table using Excel’s Ctrl-A and Ctrl-T functions. This ensured proper organization for easier analysis.
 
 - Removal of Duplicates: Duplicate entries across multiple columns were eliminated using Excel’s “Remove Duplicates” function to ensure the dataset reflected only unique transactions.
 
@@ -57,7 +57,7 @@ The data cleaning and transformation process was extensive, focusing on ensuring
 5) What are the Sales Trends over time?
 6) What Time of Day generated the highest sales?
 7) Which Product Detail had the highest sales?
-8) What are the Total Quantities sold in each Category?
+8) What are the Total Quantities sold in each category?
 
 ## Data Analysis
 To facilitate the analysis, the visualizations were divided into six key dashboards, each focusing on different aspects of sales performance. Appropriate charts were chosen to deliver clarity, including bar charts, card visuals, column charts, line graphs, and pie charts. Slicers were also deployed for easy drilling of the analysis.
@@ -80,13 +80,13 @@ To facilitate the analysis, the visualizations were divided into six key dashboa
  
 ## Recommendations
 
-1) Since Morning sales account for the majority of revenue (55.57%), focus marketing efforts on attracting more Morning customers. This could include offering breakfast promotions for morning purchases.
+1) Since Morning sales account for the majority of revenue (55.57%), focus marketing efforts on attracting more Morning customers. This could include offering breakfast promotions for Morning purchases.
 
 2) From the analysis, Coffee contributes 38.63% of total revenue, consider introducing new coffee flavors, sizes, or seasonal specialties to attract more customers. Also, consider merging Coffee with Bakery items to increase sales in both categories.
 
 3) While Coffee dominates, Tea and Bakery Products contribute significantly to sales. Focus on promoting these items through limited-time offers or seasonal pairings with coffee to grow their share of revenue.
 
-4) With Evening sales lagging behind Morning and Afternoon sales, offer evening promotions or discounts products to draw in more customers during those hours.
+4) With Evening sales lagging behind Morning and Afternoon sales, offer Evening promotions or discount products to draw in more customers during those hours.
 
 5) Barista Espresso, Brewed Chai Tea, and Hot Chocolate are top-sellers. Ensure that these products are always available.
 
@@ -100,4 +100,4 @@ To facilitate the analysis, the visualizations were divided into six key dashboa
 
 ## Conclusion
 Conclusively, this Sales Analysis has provided valuable insights into the company's overall sales performance, customers behavior, sales trends, products performances, and overall business performance between January 2021 - June 2023.
-By leveraging these insights, the company can make informed decisions to optimize sales strategies, improve team's performance, boost products’ visibility and boost their revenue.
+By leveraging these insights, the company can make informed decisions to optimize sales strategies, improve team performance, boost products’ visibility, and boost their revenue.
