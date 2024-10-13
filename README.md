@@ -20,12 +20,12 @@ Click on the link to interact with the [Analysis Dashboard](https://app.powerbi.
 
 ## Softwares Used
 1) Microsoft Excel: Utilized for data cleaning and transformation
-2) Power Query Editor: Utilized for advanced data cleaning and transformation.
+2) Power Query Editor: Utilized for further cleaning and transformation of the data.
 3) Power BI: Used for creation of interactive visualizations and dashboards to extract and display insights from the data.
 
 ## Data Cleaning and Transformation
 
-The data cleaning and transformation process was extensive, focusing on ensuring data consistency and integrity to improve the accuracy of the insights drawn from the analysis.
+The data cleaning and transformation process was extensive, focusing on ensuring data consistency and integrity to ensure the accuracy of the insights drawn from the analysis.
 #### Key transformations included:
 
 - Table Creation: The Excel worksheet containing the data was converted into structured a table using Excel’s Ctrl-A and Ctrl-T functions. This ensured proper organization for easier analysis.
@@ -38,7 +38,7 @@ The data cleaning and transformation process was extensive, focusing on ensuring
 
 - Blank Rows Removal: Blank rows were removed to maintain data integrity, ensuring a clean and complete dataset.
 
-- Text Formatting: Data consistency was further ensured by cleaning, trimming, and capitalizing key columns such as Product Types, Product Details, Categories, and Time and Date fields.
+- Text Formatting: Data consistency was further ensured by cleaning, trimming, and capitalizing key columns such as Product Types, Product Details, Categories, Time and Date fields.
 
 - Time of Day: Using Excel’s VLOOKUP function, the time of day (Morning, Afternoon, or Evening) was extracted from the "Time of Purchase" column.
 
@@ -51,12 +51,12 @@ The data cleaning and transformation process was extensive, focusing on ensuring
 ## Exploratory Data Analysis (EDA)
 
 1) What are the Total Sales and Quantity Sold?
-2) Which Store generated the highest sales?
+2) Which Store generated the highest Sales?
 3) Which Product Category generated the highest revenue?
-4) Which Product Type had the highest sales?
+4) Which Product Type had the highest Sales?
 5) What are the Sales Trends over time?
-6) What Time of Day generated the highest sales?
-7) Which Product Detail had the highest sales?
+6) What Time of Day generated the highest Sales?
+7) Which Product Detail had the highest Sales?
 8) What are the Total Quantities sold in each category?
 
 ## Data Analysis
@@ -86,15 +86,15 @@ To facilitate the analysis, the visualizations were divided into six key dashboa
 
 3) While Coffee dominates, Tea and Bakery Products contribute significantly to sales. Focus on promoting these items through limited-time offers or seasonal pairings with coffee to grow their share of revenue.
 
-4) With Evening sales lagging behind Morning and Afternoon sales, offer Evening promotions or discount products to draw in more customers during those hours.
+4) With Evening sales lagging behind Morning and Afternoon sales, offer Evening promotions or discount to draw in more customers during those hours.
 
-5) Barista Espresso, Brewed Chai Tea, and Hot Chocolate are top-sellers. Ensure that these products are always available.
+5) Barista Espresso, Brewed Chai Tea, and Hot Chocolate are top-sellers. Ensure that these Product Types are always available.
 
 6) Focus on upselling the top-performing premium products in the Product Detail category, such as Sustainably Grown Organic Rg, Dark Chocolate Lg, and Latte Lg. These items have strong sales and likely generate higher profit margins, making them ideal for promotions to maximize revenue.
 
 7) Offer incentives such as discounts or complimentary items for the purchase of underperforming products to encourage more patronage. Also, invest in strategic marketing to boost the visibility of the underperforming products.
 
-8) Implement inventory management systems that prioritize keeping top-selling products in stock at all times. This will ensure you meet customer demand, avoid missed sales opportunities, and generally increase revenue.
+8) Implement inventory management systems that prioritize keeping top-selling products in stock at all times. This will ensure you meet customers demands, avoid missed sales opportunities, and generally increase revenue.
 
 9) Leverage the interactive dashboards to monitor sales performance in real-time and continuously implement and tweak strategies to improve overall overall sales.
 
