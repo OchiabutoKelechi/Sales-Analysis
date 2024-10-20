@@ -21,18 +21,18 @@ Click on the link to interact with the [Analysis Dashboard](https://app.powerbi.
 ## Softwares Used
 1) Microsoft Excel: Utilized for data cleaning and transformation
 2) Power Query Editor: Utilized for further cleaning and transformation of the data.
-3) Power BI: Used for creation of interactive visualizations and dashboards to extract and display insights from the data.
+3) Power BI: Used for the creation of interactive visualizations and dashboards to extract and display insights from the data.
 
 ## Data Cleaning and Transformation
 
 The data cleaning and transformation process was extensive, focusing on ensuring data consistency and integrity to ensure the accuracy of the insights drawn from the analysis.
 #### Key transformations included:
 
-- Table Creation: The Excel worksheet containing the data was converted into structured a table using Excel’s Ctrl-A and Ctrl-T functions. This ensured proper organization for easier analysis.
+- Table Creation: The Excel worksheet containing the data was converted into a structured table using Excel’s Ctrl-A and Ctrl-T functions. This ensured proper organization for easier analysis.
 
 - Removal of Duplicates: Duplicate entries across multiple columns were eliminated using Excel’s “Remove Duplicates” function to ensure the dataset reflected only unique transactions.
 
-- Column Trimming: Irrelevant columns were removed to streamline the analysis, ensuring accuracy of the analysis.
+- Column Trimming: Irrelevant columns were removed to streamline the analysis, ensuring the accuracy of the analysis.
 
 - Correction of Misspellings: Both Power Query and Excel’s “Find and Replace” function were used to correct misspellings in key fields like product types, categories, and location names, ensuring consistency across the dataset.
 
@@ -86,7 +86,7 @@ To facilitate the analysis, the visualizations were divided into six key dashboa
 
 3) While Coffee dominates, Tea and Bakery Products contribute significantly to sales. Focus on promoting these items through limited-time offers or seasonal pairings with coffee to grow their share of revenue.
 
-4) With Evening sales lagging behind Morning and Afternoon sales, offer Evening promotions or discount to draw in more customers during those hours.
+4) With Evening sales lagging behind Morning and Afternoon sales, offer Evening promotions or discounts to draw in more customers during those hours.
 
 5) Barista Espresso, Brewed Chai Tea, and Hot Chocolate are top-sellers. Ensure that these Product Types are always available.
 
@@ -94,10 +94,10 @@ To facilitate the analysis, the visualizations were divided into six key dashboa
 
 7) Offer incentives such as discounts or complimentary items for the purchase of underperforming products to encourage more patronage. Also, invest in strategic marketing to boost the visibility of the underperforming products.
 
-8) Implement inventory management systems that prioritize keeping top-selling products in stock at all times. This will ensure you meet customers demands, avoid missed sales opportunities, and generally increase revenue.
+8) Implement inventory management systems that prioritize keeping top-selling products in stock at all times. This will ensure you meet customers' demands, avoid missed sales opportunities, and generally increase revenue.
 
-9) Leverage the interactive dashboards to monitor sales performance in real-time and continuously implement and tweak strategies to improve overall overall sales.
+9) Leverage the interactive dashboards to monitor sales performance in real time, and continuously implement and tweak strategies to improve overall sales.
 
 ## Conclusion
-Conclusively, this Sales Analysis has provided valuable insights into the company's overall sales performance, customers behavior, sales trends, products performances, and overall business performance between January 2021 - June 2023.
+Conclusively, this Sales Analysis has provided valuable insights into the company's overall sales performance, customer behavior, sales trends, product performances, and overall business performance between January 2021 - June 2023.
 By leveraging these insights, the company can make informed decisions to optimize sales strategies, improve team performance, boost products’ visibility, and boost their revenue.
